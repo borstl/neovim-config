@@ -40,6 +40,15 @@ return {
       end,
     })
 
-    vim.cmd("colorscheme tokyonight")
+    require("tokyonight").setup({
+      style = "day",
+      transparent = transparent,
+      styles = {
+        sidebars = transparent and "transparent" or "day",
+        floats = transparent and "transparent" or "day",
+      },
+    })
+
+    vim.cmd("colorscheme tokyonight-day")
   end,
 }
