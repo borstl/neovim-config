@@ -37,4 +37,7 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- language spell check
 opt.spell = true
-opt.spelllang = { "en_us", "de_de" }
+opt.spelllang = "en_us,de_de"
+
+-- for formatting concealing features like in obsidian
+opt.conceallevel = 1
