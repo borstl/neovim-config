@@ -1,7 +1,8 @@
 return {
   "williamboman/mason.nvim",
+  version = "^1.0.0",
   dependencies = {
-    "williamboman/mason-lspconfig.nvim",
+    { "williamboman/mason-lspconfig.nvim", version = "^1.0.0" },
     "WhoIsSethDaniel/mason-tool-installer.nvim",
   },
   config = function()
@@ -41,6 +42,7 @@ return {
         "markdown_oxide",
         "sqlls",
         "jsonls",
+        "ltex",
       },
       automatic_installation = true,
     })
@@ -53,6 +55,7 @@ return {
         "black", -- python formatter
         "pylint",
         "eslint_d",
+        "luacheck",
       },
     })
   end,

@@ -19,4 +19,8 @@ require("lazy").setup({ { import = "sebo.plugins" }, { import = "sebo.plugins.ls
   change_detection = {
     notify = false,
   },
+--[[   rocks = {
+    hererocks = false,
+    enabled = false,
+  }, ]]
 })

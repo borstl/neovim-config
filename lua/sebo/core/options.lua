@@ -37,7 +37,9 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- language spell check
 opt.spell = true
-opt.spelllang = "en_us,de_de"
+opt.spelllang = "de_de,en_us"
 
 -- for formatting concealing features like in obsidian
 opt.conceallevel = 1
+
+vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
